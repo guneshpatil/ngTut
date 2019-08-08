@@ -1,0 +1,5 @@
+applications:
+- name: actual-angular
+  random-route: true
+  command: ng serve
+  memory: 128M
