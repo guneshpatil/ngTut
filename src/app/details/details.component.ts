@@ -9,7 +9,7 @@ import { ActivatedRoute } from '@angular/router';
   styleUrls: ['./details.component.scss']
 })
 export class DetailsComponent implements OnInit {
-  singleUser$: Object;
+  singleUser$: any;
 
   constructor(private singleUserDetails: DataService, private route: ActivatedRoute) {
     this.route.params.subscribe( params => this.singleUser$ = params.id) //id as defined in routes file
