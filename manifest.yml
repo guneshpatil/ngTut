@@ -1,5 +1,5 @@
 applications:
 - name: actual-angular
-  buildpack: nodejs_buildpack
+  buildpack: staticfile_buildpack
   random-route: true
   memory: 256M
