@@ -1,7 +1,5 @@
 applications:
 - name: actual-angular
   buildpack: nodejs_buildpack
-  domain: eywa.eu-gb.mybluemix.net
   random-route: true
-  command: ng serve
   memory: 256M
