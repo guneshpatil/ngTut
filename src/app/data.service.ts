@@ -12,6 +12,7 @@ export class DataService {
     return this.apiClient.get('https://jsonplaceholder.typicode.com/users')
   }
 
+  //Get the data for single user
   getUser(userId){
     return this.apiClient.get('https://jsonplaceholder.typicode.com/users/' + userId)
   }
